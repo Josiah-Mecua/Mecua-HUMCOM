@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<form>
+    <h1 align="middle">Sign Up Now!</h1>
+
+    <label>
+        Fields marked with (*) are required
+    </label>
+    
+    <br><br>
+
+    <Label>Your Details</Label>
+
+    <br><br>
+
+    Name* <input type="text" name="firstname" /><br /> 
+    Email* <input type="text" name="lastname" /> <br>
+    Phone* <input type="number" name="Phone" minlength="11" maxlength="11"/>
+
+    <br><br>
+    <label>Deliver Address</label>
+
+    <br>
+
+    Address* <input type="Text" name="Address" /> <br>
+    District/Barangay* <input type="Text" name="Brgy" /> <br>
+    <button onclick="myFunction()" class="dropbtn">City*</button> <br>
+    <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Baguio</a>
+    <a href="#about">Option2</a>
+    <a href="#contact">Option3</a><br>
+    Postal Code* <input type="number" name="Postal" minlength="4" maxlength="4"> <br>
+    <button onclick="myFunction()" class="dropbtn">Province*</button>
+    <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Benguet</a>
+    <a href="#about">Option2</a>
+    <a href="#contact">Option3</a>
+
+    <br><br>
+
+    <label>Membership Information</label> <br>
+    Username* <input type="text" name="Udername"/> <br>
+    Password* <input type="password" name="Password"/><br>
+    Magazine Subscriptions <br>
+    <input type="checkbox"/> PCMagazine <br>
+    <input type="checkbox"/> Wired <br>
+    <input type="checkbox"/> Computerworld <br>
+    <input type="checkbox"/> I don't subscribe <br>
+    <input type="checkbox"/> Other <br> <br>
+
+    <input type="submit" /> 
+</form>
